@@ -20,7 +20,7 @@ public class GenerateCookies : MonoBehaviour
 	{
 		while (true)
 		{
-			yield return new WaitForSeconds(CookiesPerSecond);
+			yield return new WaitForSeconds(1);
 			GameManager.UpdateCookieCount(CookiesPerSecond);
 		}
 	}
