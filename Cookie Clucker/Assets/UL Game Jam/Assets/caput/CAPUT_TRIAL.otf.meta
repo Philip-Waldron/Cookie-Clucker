@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4ddc1415bc69c504f8c8829c78d750ba
+timeCreated: 1521897888
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CAPUT_TRIAL
+  fontNames:
+  - CAPUT_TRIAL
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1af6bf37a0995af47a3da4de1872e52a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
