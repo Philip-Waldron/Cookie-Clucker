@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Leap.Unity.Interaction;
 using UnityEngine;
 
 public class MenuUIController : MonoBehaviour {
@@ -33,12 +34,12 @@ public class MenuUIController : MonoBehaviour {
 
         if (cookieCount >= activationThreshold)
         {
-            gameObject.GetComponent<BoxCollider>().enabled = true;
+            gameObject.GetComponent<InteractionBehaviour>().ignoreContact = false;
             activeMenu.SetActive(true);
         }
         else
         {
-            gameObject.GetComponent<BoxCollider>().enabled = false;
+            gameObject.GetComponent<InteractionBehaviour>().ignoreContact = true;
             activeMenu.SetActive(false);
         }
 	}
