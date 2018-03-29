@@ -25,11 +25,11 @@ public class LilOvenUpgradeCost : MonoBehaviour
 		TextMeshPro textmeshPro = GetComponent<TextMeshPro>();
 		if (cost != 0)
 		{
-			textmeshPro.SetText("CHRIST I NEED AN OVEN That'll be like {0} cookies, dude", cost);
+			textmeshPro.SetText("CHRIST I NEED AN OVEN\nThat'll be like {0} cookies, dude", cost);
 		}
 		else
 		{
-			textmeshPro.SetText("CHRIST I NEED AN OVEN That'll be like {0} cookies, dude", initalCost);
+			textmeshPro.SetText("CHRIST I NEED AN OVEN\nThat'll be like {0} cookies, dude", initalCost);
 		}
 	}
 }

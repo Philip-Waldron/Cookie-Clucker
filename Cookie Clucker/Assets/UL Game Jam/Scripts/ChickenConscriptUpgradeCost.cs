@@ -25,11 +25,11 @@ public class ChickenConscriptUpgradeCost : MonoBehaviour
 		TextMeshPro textmeshPro = GetComponent<TextMeshPro>();
 		if (cost != 0)
 		{
-			textmeshPro.SetText("CHICKEN CONSCRIPTS AHOY Whoa, a whopping {0} cookies!", cost);
+			textmeshPro.SetText("CHICKEN CONSCRIPTS AHOY\nWhoa, a whopping {0} cookies!", cost);
 		}
 		else
 		{
-			textmeshPro.SetText("CHICKEN CONSCRIPTS AHOY Whoa, a whopping {0} cookies!", initalCost);
+			textmeshPro.SetText("CHICKEN CONSCRIPTS AHOY\nWhoa, a whopping {0} cookies!", initalCost);
 		}
 	}
 }

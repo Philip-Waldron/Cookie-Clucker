@@ -25,11 +25,11 @@ public class TippyBirdUpgradeCost : MonoBehaviour
 		TextMeshPro textmeshPro = GetComponent<TextMeshPro>();
 		if (cost != 0)
 		{
-			textmeshPro.SetText("PLACE TIPPY BOI ORDER That's a {0} cookies.", cost);
+			textmeshPro.SetText("PLACE TIPPY BOI ORDER\nThat's a {0} cookies.", cost);
 		}
 		else
 		{
-			textmeshPro.SetText("PLACE TIPPY BOI ORDER That's a {0} cookies.", initalCost);
+			textmeshPro.SetText("PLACE TIPPY BOI ORDER\nThat's a {0} cookies.", initalCost);
 		}
 	}
 }
